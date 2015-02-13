@@ -1,0 +1,101 @@
+
+  /*<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>*/
+  /*link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'*/
+
+@font-face { /*font to implement as header - still working on this*/
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'), url(http://fonts.gstatic.com/s/pacifico/v7/Q_Z9mv4hySLTMoMjnk_rCfesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+h1 {
+	background-color: #226666;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family:"Tahoma", Geneva, sans-serif;
+	/*font-family: 'Pacifico', cursive;*/
+	border-radius: 3px;
+	text-shadow: 4px 4px 4px #000000;
+	/*text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;*/
+}
+
+.container {
+	background-color: #B5D0D0;
+	padding-top: 25px;
+	padding-right: 50px;
+	padding-bottom: 25px;
+	padding-left: 50px;
+	font-family:"Tahoma", Geneva, sans-serif;
+	/*font-family: "Lobster", cursive;*/
+	/*font-family: 'Pacifico', cursive;*/
+	border-radius: 3px;
+    text-shadow: 3px 3px 3px #aaa;
+}
+
+input#submitButton{
+	cursor:pointer; /*cursor to change to a hand*/
+	background:#c0c0c0; /*the colour of the button*/
+	border:1px solid #000000;
+	/*give the button curved corners*/
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	/*drop shadow*/
+	-webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+	-moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+	box-shadow: 0 0 4px rgba(0,0,0, .75);
+	/*text*/
+	color:#f3f3f3;
+	font-size:1.3em;
+}
+	
+input#submitButton:hover, input#submitButton:focus{ /*change when hovering over button*/
+	background-color :#808080;
+	/*change drop shadow*/
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+	-moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+	box-shadow: 0 0 1px rgba(0,0,0, .75);
+}
+
+input#resetButton{
+	cursor:pointer; /*cursor to change to a hand*/
+	background:#c0c0c0; /*the colour of the button*/
+	border:1px solid #000000;
+	/*give the button curved corners*/
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	/*drop shadow*/
+	-webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+	-moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+	box-shadow: 0 0 4px rgba(0,0,0, .75);
+	/*text*/
+	color:#f3f3f3;
+	font-size:1.3em;
+}
+	
+input#resetButton:hover, input#resetButton:focus{ /*change when hovering over button*/
+	background-color :#808080;
+	/*change drop shadow*/
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+	-moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+	box-shadow: 0 0 1px rgba(0,0,0, .75);
+}
+
+#signupForm input#username, #signupForm input#email, #signupForm input#password1, #signupForm input#password2{
+	width:200px;
+}
+
+#signupForm input:focus{
+	border:2px solid #226666;
+}
+
+
+
